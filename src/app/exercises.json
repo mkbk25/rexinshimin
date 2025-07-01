@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "草原智慧问答系统",
+    "description": "使用 iframe 技术集成智能问答系统，为用户提供内蒙古文化知识解答。展示了第三方服务集成能力和跨域通信技术。",
+    "link": "/practice/embed-demo",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风.png",
+    "tags": ["iframe", "集成", "API"]
+  },
+  {
+    "id": 2,
+    "title": "蒙古包3D展示",
+    "description": "使用 React 组件化开发，展示蒙古包的3D模型和结构细节。实践了组件生命周期、状态管理和事件处理。",
+    "link": "/practice/my-app",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (1).png",
+    "tags": ["React", "组件", "3D"]
+  },
+  {
+    "id": 3,
+    "title": "传统服饰样式库",
+    "description": "使用CSS选择器和基本属性，展示蒙古族服饰的配色和图案。通过实例学习CSS样式基础知识。",
+    "link": "/practice/03-css-01",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (2).png",
+    "tags": ["CSS", "选择器", "样式"]
+  },
+  {
+    "id": 4,
+    "title": "乐器展示盒模型",
+    "description": "运用CSS盒模型和Flexbox布局，展示马头琴等蒙古族乐器。深入理解盒模型、边距和内边距概念。",
+    "link": "/practice/03-css-02",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (3).png",
+    "tags": ["CSS", "盒模型", "布局"]
+  },
+  {
+    "id": 5,
+    "title": "那达慕活动展示",
+    "description": "使用CSS浮动技术，展示赛马、摔跤、射箭三大项目。学习元素浮动、清除浮动和文档流概念。",
+    "link": "/practice/04-css-01",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风.png",
+    "tags": ["CSS", "浮动", "布局"]
+  },
+  {
+    "id": 6,
+    "title": "美食文化定位",
+    "description": "通过CSS定位技术，创建蒙古族美食展示页面。掌握相对定位、绝对定位和固定定位的使用方法。",
+    "link": "/practice/04-css-02",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (1).png",
+    "tags": ["CSS", "定位", "动画"]
+  },
+  {
+    "id": 7,
+    "title": "工艺品相对布局",
+    "description": "使用CSS相对定位，展示蒙古族传统工艺品。深入理解相对定位的特性和使用场景。",
+    "link": "/practice/04-css-02-relative",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (2).png",
+    "tags": ["CSS", "相对定位", "布局"]
+  },
+  {
+    "id": 8,
+    "title": "草原新闻页面",
+    "description": "使用HTML5语义化标签和CSS Grid，构建展示内蒙古文化新闻的响应式页面。",
+    "link": "/practice/05-news01",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (3).png",
+    "tags": ["HTML", "CSS", "响应式"]
+  },
+  {
+    "id": 9,
+    "title": "文化活动直播",
+    "description": "使用JavaScript DOM操作和事件处理，实现文化活动直播页面的交互功能。",
+    "link": "/practice/06-news01",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风.png",
+    "tags": ["JavaScript", "DOM", "事件"]
+  },
+  {
+    "id": 10,
+    "title": "草原故事会",
+    "description": "使用JavaScript高级特性，开发互动式蒙古族故事展示平台。实践面向对象编程和模块化开发。",
+    "link": "/practice/06-news02",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (1).png",
+    "tags": ["JavaScript", "OOP", "模块化"]
+  },
+  {
+    "id": 11,
+    "title": "生态数据监测",
+    "description": "使用Promise和async/await，实现草原生态数据的异步获取和展示。学习现代JavaScript异步编程。",
+    "link": "/practice/07-async-01",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (2).png",
+    "tags": ["JavaScript", "异步", "Promise"]
+  },
+  {
+    "id": 12,
+    "title": "文化数据中心",
+    "description": "使用Fetch API获取和展示内蒙古文化遗产数据。实践RESTful API调用和数据处理。",
+    "link": "/practice/07-async-02",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风 (3).png",
+    "tags": ["API", "Fetch", "数据处理"]
+  },
+  {
+    "id": 13,
+    "title": "草原文化导览",
+    "description": "展示平台使用指南，结合HTML5新特性和CSS动画，创建交互式导览体验。",
+    "link": "/practice/index",
+    "imageUrl": "/practice/images/生成内蒙古特色卡通风.png",
+    "tags": ["HTML5", "CSS3", "交互"]
+  }
+] 

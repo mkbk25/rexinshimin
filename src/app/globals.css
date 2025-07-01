@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-green: #8BC34A;
+  --secondary-green: #C5E1A5;
+  --accent-green: #558B2F;
+  --background: #F1F8E9;
+  --foreground: #1B5E20;
+  --border-color: #81C784;
+  --hover-color: #A5D6A7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "FangSong", "仿宋", var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1B5E20;
+    --foreground: #F1F8E9;
+    --primary-green: #81C784;
+    --secondary-green: #A5D6A7;
+    --accent-green: #C8E6C9;
+    --border-color: #4CAF50;
+    --hover-color: #66BB6A;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "FangSong", "仿宋", Arial, Helvetica, sans-serif;
+}
+
+/* main.css 样式迁移自 practice/main.css */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: var(--accent-green);
+  font-weight: bold;
+  margin: 1.5rem 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.mongolian-border {
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mongolian-pattern {
+  background-image: linear-gradient(45deg, var(--secondary-green) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--secondary-green) 25%, transparent 25%);
+  background-size: 20px 20px;
+  opacity: 0.1;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes float-medium {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-fast {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 4s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 3s ease-in-out infinite;
+}
+
+/* 蒙古族传统纹样边框 */
+.mongolian-decorative-border {
+  position: relative;
+}
+
+.mongolian-decorative-border::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  background: 
+    linear-gradient(45deg, var(--border-color) 25%, transparent 25%) -10px 0,
+    linear-gradient(-45deg, var(--border-color) 25%, transparent 25%) -10px 0,
+    linear-gradient(45deg, transparent 75%, var(--border-color) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--border-color) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  opacity: 0.1;
+  z-index: -1;
 }
